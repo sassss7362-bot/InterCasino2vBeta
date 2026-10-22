@@ -1,0 +1,15 @@
+name: InterCasino
+version: 1.0.0
+main: net.intertime.casino.InterCasino
+api-version: '1.21'
+author: InterTime
+description: Казино InterTime - 6 міні-ігор
+softdepend: [Vault, Essentials]
+commands:
+  casino:
+    description: Відкрити казино InterTime
+    aliases: [kazik, cas]
+permissions:
+  intertime.casino.admin:
+    description: Видача та забирання монет
+    default: op
